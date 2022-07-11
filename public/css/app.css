@@ -1,35 +1,71 @@
 *{
-   background-color: #dbdbdb;
+   background-color: #89cbcb;
    margin: 0;
    padding: 0; 
+   font-family: 'Edu SA Beginner', cursive;
+ 
 }
 
 body{
    display: flex;
+   min-width: 100vw;
 }
 
 .header{
 
    display: flex;
-   height: 60px;
+   height: 120px;
    min-width: 100%;
-   background-color: #31576b;
+   background: linear-gradient( #3c6969  , #89cbcb );
    align-items: center;
-   justify-content:center;
+   justify-content: space-between;
+   
 }
 
-.lien{
+.header div{
+   margin: 25px;
+   background: none;
+   
+
+}
+
+a{
+   text-decoration: none;
+   background: none;
+}
+
+svg{
+   background: none;
+}
+
+
+.header h2{
+   display: flex;
+
+   margin: 10px;
+   padding: 4px;
+
+   color: #000000;
+
+   height: 33px;
+   width: auto;
+
+   border:solid;
+   border-radius: 8px;
+   border-width: 3px;
+   border-color: #000000;
+   
+   background: none;
+   font-size: 1.5em;
+}
+
+.droite{
    display: flex;
    flex-direction: row;
-   background: none
 }
 
 
+.name{
+   font-size: 20px;
 
-h2{
-   text-decoration: underline;
-   margin: 0 30px;
-   font-size: 1.3em;
-   color: #000000;
-   background: none;
 }
