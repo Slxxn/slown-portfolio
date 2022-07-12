@@ -6,11 +6,6 @@
  
 }
 
-body{
-   display: flex;
-   min-width: 100vw;
-}
-
 .header{
 
    display: flex;
@@ -64,8 +59,14 @@ svg{
    flex-direction: row;
 }
 
+.gauche{
+   /* margin-left: 200px; */
+
+}
+
 
 .name{
-   font-size: 20px;
+   font-size: 5em;
+   margin-left: 350px ;
 
 }
